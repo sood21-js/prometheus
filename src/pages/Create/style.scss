@@ -1,0 +1,30 @@
+.content {
+  margin: 24px 60px;
+
+  .add {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .add-btn {
+      width: 400px;
+    }
+  }
+}
+
+.marker {
+  position: 'absolute';
+  width: 40;
+  height: 40;
+  left: -40;
+  top: -40;
+  border: '5px solid #f44336';
+  border-radius: 40;
+  background-color: 'white';
+  text-align: 'center';
+  color: '#3f51b5';
+  font-size: 16;
+  font-weight: 'bold';
+  padding: 4;
+}

@@ -1,0 +1,50 @@
+.header {
+  background-color: #1479ff;
+  padding: 24px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h1,
+  span {
+    color: #ffffff !important;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .span {
+    font-size: 20px;
+  }
+
+  .actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    :first-child {
+      margin-right: 24px;
+    }
+
+    svg {
+      height: 18px;
+      width: 18px;
+    }
+  }
+}
+
+.content {
+  margin: 24px 60px;
+
+  .add {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .add-btn {
+      width: 400px;
+    }
+  }
+}
